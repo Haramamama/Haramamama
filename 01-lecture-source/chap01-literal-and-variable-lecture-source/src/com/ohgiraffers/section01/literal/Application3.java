@@ -35,7 +35,11 @@ public class Application3 {
         System.out.println( "10과 20의 차: " + (10-20)); // 문자열은 마이너스 연산이 불가능하기에 문자열과 마이너스는 연산이 불가능하다(반드시)
         System.out.println( "10과 20의 곱: " + (10*20)); //
         System.out.println( "10과 20의 나누기한 몫:" + (10/20));
+<<<<<<< HEAD
         System.out.println( "10과 20의 나누기한 나머지:" + (10%20) );
+=======
+        System.out.println( "10과 20의 나누기한 나머지:" + (10%20));
+>>>>>>> a920316 (first commit)
 
         System.out.println("기차"); //기차
         System.out.println("기차" + "칙칙폭폭");//기차칙칙폭폭
