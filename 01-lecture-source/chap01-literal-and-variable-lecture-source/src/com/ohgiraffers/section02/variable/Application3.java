@@ -4,7 +4,7 @@ public class Application3 {
 
     public static void main(String[] args){
 
-        /* 수업목펴: 변수의 명명 규칙에 대해 이해할 수 있다. */
+        /* 수업목표: 변수의 명명 규칙에 대해 이해할 수 있다. */
        /* 변수의 명명 규칙
        * 변수의 이름을 지을 때 아무렇게나 짓는것이 아닌 정해진 규칙이 있다
        * 실무적으로는 굉장히 중요하기 때문에 반드시 숙지해야 하고
@@ -62,7 +62,7 @@ public class Application3 {
 
         /* 목차2-3. 단어와 단어 사이는 언더스코어(_)로 하지 않는다 */
         String user_name; // 에러발생은 안하지만 이렇게 하면 안된다.
-        String userName // 올바른 표기법이다.
+        String userName; // 올바른 표기법이다.
 
         /*목차 2-4. 한글로 변수명을 짓는 것이 가능하지만 권장하지 않는다(매우) */
         int 나이;
