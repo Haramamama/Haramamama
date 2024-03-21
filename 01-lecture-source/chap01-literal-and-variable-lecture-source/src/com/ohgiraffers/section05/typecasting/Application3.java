@@ -14,8 +14,8 @@ public class Application3 {
         long lnum = 100;
 
         /* 목차: 두 수의 연산 결과를 int형으로 변환 후 int 자료형 변수에 리턴받는다. */
-        int isum = inum + inum;
-        int ioum = (int)(inum + inum);
+        //int isum = inum + inum;
+        int isum = (int)(inum + inum);
 
         /*목차2. long형 값을 int로 강제 형변환한다. */
         int isum2 = inum + (int)lnum;

@@ -26,6 +26,6 @@ public class Application4 {
         System.out.println("floorHeight : " + floorHeight); // 소수점 절삭에 사용할 수 있다.
 
 
-        
+
     }
 }
