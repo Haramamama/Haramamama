@@ -4,7 +4,7 @@ public class Application2 {
 
     public static void main(String[] args){
 
-        /* 수업 목펴: 오버플로우에 대해 이해할 수 있다 */
+        /* 수업 목표: 오버플로우에 대해 이해할 수 있다 */
         /* 자료형의 값의 최대 범위를 벗어나는 경우
         * 발생한 carry를 버림처리하고 sign bit를 반전시켜 최소값으로 순환시킴*/
 
