@@ -26,7 +26,7 @@ public class Application9 {
         * 클래스명.메소드명();
         * */
 
-        // int max = maxNumberDf(first,second); // 클래스명을 생각하면 에러가 발생합니다.
+        // int max = maxNumberOf(first,second); // 클래스명을 생각하면 에러가 발생합니다.
         int max = Calculator.maxNumberOf(first, second);
 
         System.out.println("두 수 중 최대값은? : " + max);
