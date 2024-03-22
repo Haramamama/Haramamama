@@ -32,7 +32,7 @@ public class Application3 {
 
         /* 4. -128에서 127까지의 난수 발생*/
         // int randomNum4 = ran.nextInt(256) - 128;
-        int randomNum4 = new Random(). nextInt(256) - 128;    // 객체를 생성하자마자 바로 메소드 호출 가능
+        int randomNum4 = new Random().nextInt(256) -128;    // 객체를 생성하자마자 바로 메소드 호출 가능
         System.out.println(" -128에서 127까지의 난수 발생 : " + randomNum4);
     }
 }
