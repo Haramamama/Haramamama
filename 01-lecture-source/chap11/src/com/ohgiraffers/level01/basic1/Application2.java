@@ -7,8 +7,8 @@ public class Application2 {
        int numOfApples = 92;
        int sizeOfBucket = 10;
        int maxNumOfBucket = 10;
-       int numOfBucket =  maxNumOfBucket;
 
-        System.out.println("필요한 바구니의 수 : " + numOfBucket);
+
+        System.out.println("필요한 바구니의 수 : " + maxNumOfBucket);
     }
 }
