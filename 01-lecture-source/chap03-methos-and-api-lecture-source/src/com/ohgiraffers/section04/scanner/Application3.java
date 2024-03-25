@@ -18,7 +18,7 @@ public class Application3 {
         
         /* 1.next()로 문자열 입력을 받은 후 정수, 실수, 논리값을 받을 때*/
         System.out.print("문자열을 입력해주세요. : ");
-        String str1 = sc.next();
+        String str1 = sc.next(); // next뒤에 String을 붙이지 않는 이유: String type = next와 nextLine만 사용하기로 약속함.
         System.out.println("str1 = " + str1); //soutv 단축키
 
         // sc.nextLine(); // 클리어 기능. (한 줄을 비워주는 경우)
