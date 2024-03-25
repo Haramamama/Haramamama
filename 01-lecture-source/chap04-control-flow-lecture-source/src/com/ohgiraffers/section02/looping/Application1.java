@@ -20,7 +20,8 @@ public class Application1 {
        // b.testWhileEcample2();
 
         C_doWhile c = new C_doWhile();
-        c.testSimpleDowhileStatment();
+       // c.testSimpleDowhileStatment();
+        c.testDowhileExample();
 
 
     }
