@@ -20,7 +20,7 @@ public class Application1 {
         System.out.println("num : " + num);
 
         // 3 증가시
-        num = num + 3;  // 대입연산자의 오른쪽은 값 왼쪽에는 공간의 의미다.
+        num = num + 3;  // 대입연산자의 오른쪽은 값. 왼쪽에는 공간의 의미다.
 
         System.out.println("num : " + num);
 

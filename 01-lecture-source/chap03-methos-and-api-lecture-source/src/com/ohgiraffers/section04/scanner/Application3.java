@@ -22,6 +22,7 @@ public class Application3 {
         System.out.println("str1 = " + str1); //soutv 단축키
 
         // sc.nextLine(); // 클리어 기능. (한 줄을 비워주는 경우)
+
         System.out.print("숫자를 입력해주세요. : ");
         int num1 = sc.nextInt();
         System.out.println("num1 = " + num1);
