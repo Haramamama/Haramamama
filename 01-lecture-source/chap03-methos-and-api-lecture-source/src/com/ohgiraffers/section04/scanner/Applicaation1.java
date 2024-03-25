@@ -45,6 +45,13 @@ public class Applicaation1 {
         boolean isTrue = sc.nextBoolean();
         System.out.println("입력하신 논리값은 " + isTrue + "입니다.");
 
+        /* 문자형 값 입력 받기*/
+        /*CharAt(int index)를 사용한다.*/
+        sc.nextLine();
+        System.out.print("아무 문자나 입력해주세요 : ");
+        char ch = sc.nextLine().charAt(2); // 0은 첫글자를 알아보겠다는 뜻
+        System.out.println("입력하신 문자는" + ch + "입니다.");
+
 
 
 
