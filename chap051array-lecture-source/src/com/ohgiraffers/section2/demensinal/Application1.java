@@ -1,6 +1,6 @@
-package com.ohgiraffers.section2;
+package com.ohgiraffers.section2.demensinal;
 
-public class Application2 {
+public class Application1 {
 
     public static void main(String[] args) {
 
@@ -37,5 +37,43 @@ public class Application2 {
         //iarr = new int[][]; // 크기를 지정하지 않으면 에러가 발생한다.
         //iarr = new int[][5]; // 주소를 묶어서 관리할 배열의 크기를 지정하지 않으면 에러 발생.
         iarr = new int[3][]; // 주소값을 지정해줬기에 가능.
+
+        /*3. 주소를 관리하는 배열의 인덱스마다 배열을 할당한다. */
+        iarr[0] = new int[5];
+        iarr[1] = new int[5];
+        iarr[2] = new int[5];
+        //iarr[3] = new int[5];// 방은 3개이기에 더 만들 수 없다.
+
+        iarr2 = new int[3][5];
+
+        /*4-1. 배열을 하나씩 접근해서 출력하기 */
+        for(int i = 0; i < iarr[0].length; i++){
+            System.out.println(iarr[0][i]+ "");
+
+        }
+        System.out.println();
+
+        for(int i = 0; i < iarr[1].length; i++){
+            System.out.println(iarr[1][i]+ "");
+
+        }
+        System.out.println();
+
+        for(int i = 0; i < iarr[2].length; i++){
+            System.out.println(iarr[2][i]+ "");
+
+        }
+        System.out.println();
+
+        /*4-2 중첩 for문을 이용해서 배열값 출력*/
+        for(int i = 0; i < iarr.length; i++){
+
+            for(int j = 0; j < iarr[i].length; j++){
+                System.out.println(iarr[i][j] + "");
+
+            }
+            System.out.println();
+        }
+
     }
 }
