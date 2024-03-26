@@ -23,7 +23,7 @@ public class C_ifElseIf {
         System.out.println("연못에서 산신령이 나타난 금도끼, 은도끼, 쇠도끼를 들고 나타났다.");
         System.out.println("나무꾼한테 어떤 도끼가 나무꾼의 도끼인지 물어보았다.");
 
-        System.out.print("어느 도끼가 너의 도끼냐? (1. 금도끼 2. 도끼 3. 쇠도끼) : ");
+        System.out.print("어느 도끼가 너의 도끼냐? (1. 금도끼 2. 은도끼 3. 쇠도끼) : ");
         Scanner sc = new Scanner(System.in);
         int answer = sc.nextInt();
 
@@ -59,20 +59,73 @@ public class C_ifElseIf {
             System.out.print("학생의 점수를 입력하세요 : ");
             int point = sc.nextInt();
 
-            String grade = "";
+
 
             //종로에서 소스 코드 받아서 다시 작성해보기.
 
-            if (point >= 90) {
-                System.out.println("A");
-            }else if(point >= 80) {
-                System.out.println("B");
-            }else if(point >= 70){
-                System.out.println("C");
-            }else if(point >=60){
-                System.out.println("D");
-            }else if(point<60){
-                System.out.println("F");
+            /*  학생의 등급을 저장하기 위한 변수 초기화 */
+            String grade ="";
+
+            /* 설명. 학점등급을 매기기 위해 점수를 확인 하기 위한 조건문 */
+            if(point >= 90) {
+
+                /*  점수가 90점 이상인 경우 */
+                grade = "A";
+
+                /*  등급은 A등급인데 그럼 +가 붙을 자격이 있는지(95점 이상인지) 다시 확인 */
+                if(point >= 95) {
+
+                    /*  95점 이상인 경우 A등급에 +기호를 덧붙여 A+ 등급을 만들어준다. */
+                    grade += "+";
+                }
+
+            } else if(point >= 80) {
+
+                /* 점수가 90점 미만, 80점 이상인 경우 */
+                grade = "B";
+
+                /*  등급은 B등급인데 그럼 +가 붙을 자격이 있는지(85점 이상인지) 다시 확인 */
+                if(point >= 85) {
+
+                    /* 85점 이상인 경우 B등급에 +기호를 덧붙여 B+ 등급을 만들어준다. */
+                    grade += "+";
+                }
+
+            } else if(point >= 70) {
+
+                /* 점수가 80점 미만, 70점 이상인 경우 */
+                grade = "C";
+
+                /* 등급은 C등급인데 그럼 +가 붙을 자격이 있는지(75점 이상인지) 다시 확인 */
+                if(point >= 75) {
+
+                    /* 75점 이상인 경우 C등급에 +기호를 덧붙여 C+ 등급을 만들어준다. */
+                    grade += "+";
+                } else if(point >= 60) {
+
+                    /* 점수가 70점 미만, 60점 이상인 경우 */
+                    grade = "D";
+
+                    /*  등급은 D등급인데 그럼 +가 붙을 자격이 있는지(65점 이상인지) 다시 확인 */
+                    if(point >= 65) {
+
+                        /*  65점 이상인 경우 D등급에 +기호를 덧붙여 D+ 등급을 만들어준다. */
+                        grade += "+";
+                    }
+
+                } else {
+
+                    /*  위 조건을 다 만족하지 못하는 점수가 60점 미만인 경우 */
+                    grade = "F";
+
+                    /*  등급이 F인 경우는 +를 붙이지 않는다. */
+
+                }
+
+                /* 설명. 위에서 결정된 등급을 점수와 함께 출력한다. */
+                System.out.println(name + " 학생의 점수는 " + point + "이고, 등급은 " + grade + "입니다.");
+                System.out.println("프로그램을 종료합니다.");
+                }
+
             }
-        }
 }
