@@ -1,4 +1,4 @@
-package com.ohgiraffers.section2.demensinal;
+package com.ohgiraffers.section02.demensinal;
 
 public class Application1 {
 
