@@ -20,13 +20,13 @@ public class Application2 {
         print(name);
 
         /*2. 리턴값으로 활용*/
-        String[] animals = getAnimals();  // static 때문에 바로 호출 가능
+        String[] animals = getAnimals();  // static 때문에 바로 호출 가능. 선언과 동시에 초기화.
 
         System.out.println("리턴 받은 animals.hashCode() = " + animals.hashCode());  //1989780873
 
         print(animals);
     }
-    public static void print(String[] sarr){  // 메소드 호출
+    public static void print(String[] sarr){  // 메소드 호출  // 그저 주소를 확인하기 위한 메소드
 
         System.out.println("sarr.hashcode() = " + sarr.hashCode());  //1283928880 , 1989780873
         for (int i = 0; i < sarr.length; i++) {
@@ -38,7 +38,7 @@ public class Application2 {
 
 
 
-    public static String[] getAnimals(){  // 리턴값만 있는 메소드
+    public static String[] getAnimals(){  // 리턴값만 있는 메소드. 객채 생성 안해도된다.
 
         String[] animals = new String[]{"뱀", "판다", "다람쥐"};
 
