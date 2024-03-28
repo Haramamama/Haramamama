@@ -11,7 +11,7 @@ public class Application2 {
         * */
 
         /* 원하는 범위의 난수를 구하는 공식
-        * (int)(Math.random * 구하려는 난수의 갯수) + 구하려는 난수의 최소값 // *은 곱하기 아님.
+        * (int)(Math.random() * 구하려는 난수의 갯수) + 구하려는 난수의 최소값 // *은 곱하기 아님.
         * */
 
         /* 1. 0부터 9까지의 정수로 된 난수 발생*/
@@ -26,6 +26,10 @@ public class Application2 {
         /*3. 10부터 15까지의 난수를 발생시켜보자*/
         int random3 = (int)(Math.random() * 6) +10; //최소값 10을 더해준다. 공식
         System.out.println("10부터 15까지의 난수 : " + random3);
+
+        /*4. 11부터 16까지의 난수를 발생시켜보자*/
+        int random4 = (int)(Math.random() *6) + 11;
+        System.out.println("11부터 16까지의 난수 : " + random4);
 
 
 

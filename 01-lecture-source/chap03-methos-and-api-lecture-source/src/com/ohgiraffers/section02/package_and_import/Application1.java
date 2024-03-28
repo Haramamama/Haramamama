@@ -21,6 +21,8 @@ public class Application1 {
 
         System.out.println("30과 20중에 더 작은 값은? : " + min);
 
+        // non-static의 경우 객체 생성을 해줘야 하지만 static의 경우 변수선언과 동시에 객체생성이 가능하다.
+
         /*2. static 메소드의 경우*/
 
         int max = com.ohgiraffers.section01.method.Calculator.maxNumberOf(30,20);

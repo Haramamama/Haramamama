@@ -7,8 +7,8 @@ public class Application4 {
         /*여러 개의 전달인자를 이용한 메소드 호출 테스트*/
 
         /*1. 여러 개의 매게변수를 가진 메소드 호출*/
-        Application4 a004 = new Application4();
-        a004.testMethod("송하람", 22, '여');
+        Application4 a004 = new Application4();  // 객체 생성
+        a004.testMethod("송하람", 22, '여');  // 메소드 호출
        // a004.testMethod("20", "유관순", '여'); // 값의 갯수는 맞지만 순서가 다르기에 호출되지 못한다.
 
         /*2. 변수에 저장된 값을 전달하여 호출할 수 있다. */

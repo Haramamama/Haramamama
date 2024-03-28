@@ -4,7 +4,7 @@ public class Application5 {
 
     public static void main(String[] args) {
 
-        /* 수업목표. 삽입정렬(insert sort)에 대해 이해하고 적용할 수 있다. */
+        /* 수업목표: 삽입정렬(insert sort)에 대해 이해하고 적용할 수 있다. */
         /* 필기.
          *  배열의 모든 요소를 앞에서부터 차례대로 이미 정렬된 배열과 비교하여 자신의 위치에 삽입하여 정렬
          *  배열의 두번째 데이터부터 연산을 시작한다.
@@ -28,7 +28,7 @@ public class Application5 {
             iarr[j+1] = temp;
         }
 
-        /* 설명. 값 출력용 반복문 */
+        /* 값 출력용 반복문 */
         for(int i = 0; i < iarr.length; i++){
             System.out.print(iarr[i] + " ");
         }

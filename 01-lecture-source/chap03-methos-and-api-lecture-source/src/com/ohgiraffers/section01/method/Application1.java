@@ -20,7 +20,7 @@ public class Application1 {
         /* 2. 작성한 메소드를 호출하는 부분을 작성한다. */
         /*
         * 메소드의 호출방법
-        * 클래스명 사용할 이름 =new 클래스명(); // 객체 생성
+        * 클래스명 사용할 이름 = new 클래스명(); // 객체 생성
         * 사용할 이름, 메소드명(); */   //메소드 호출
 
         Application1 aoo = new Application1();
@@ -35,7 +35,6 @@ public class Application1 {
     public void methodA(){
 
         System.out.println("뱀 선생님 출근!!");
-
         methodB();
 
         System.out.println("뱀 선생님 퇴근!!");

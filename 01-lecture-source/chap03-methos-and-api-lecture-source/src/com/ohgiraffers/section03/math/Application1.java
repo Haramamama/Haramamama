@@ -25,7 +25,7 @@ public class Application1 {
         /*1-1 클래스의 풀네임을 다 적은 경우 */       // 절대값의 명령어는 abs
         System.out.println("-7의 절대값 : " + (java.lang.Math.abs(-7)));
 
-        /*1-2 import룰 사용해보자*/
+        /*1-2 import를 사용해보자*/
         System.out.println("1.21의 절대값 : " + (Math.abs(1.21)));
 
         /*2. 최대값, 최소값 출력*/

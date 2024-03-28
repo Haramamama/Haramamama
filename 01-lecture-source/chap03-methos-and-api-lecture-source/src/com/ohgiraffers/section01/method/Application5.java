@@ -22,14 +22,15 @@ public class Application5 {
         System.out.println("main 메소드 종료함");
     }
 
-       public void testMethod(){
+       public void testMethod() {
 
            System.out.println("테스트 메소드 동작 확인...");
 
            /* void는 컴파일러에 의해 자동으로 추가되는 구문이다.
-           * 가장 마지막에 작성하고, 마지막에 작성되지 않을 경우에는 컴파일 에러를 발생시킨다. */
+            * 가장 마지막에 작성하고, 마지막에 작성되지 않을 경우에는 컴파일 에러를 발생시킨다. */
 
            return;
+
 
            // System.out.println(); //  return은 메소드 가장 마지막에 작성해야하기에 에러가 발생한다.
 
